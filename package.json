@@ -1,0 +1,22 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "命令行博客系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenchangmin/myblog.git"
+  },
+  "keywords": [
+    "shell"
+  ],
+  "author": " <503228482@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shenchangmin/myblog/issues"
+  },
+  "homepage": "https://github.com/shenchangmin/myblog#readme"
+}
