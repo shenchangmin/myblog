@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/shenchangmin/myblog/issues"
   },
-  "homepage": "https://github.com/shenchangmin/myblog#readme"
+  "homepage": "https://github.com/shenchangmin/myblog#readme",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
 }
