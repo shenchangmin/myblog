@@ -19,7 +19,13 @@
     "url": "https://github.com/shenchangmin/myblog/issues"
   },
   "homepage": "https://github.com/shenchangmin/myblog#readme",
+  "bin": {
+    "myblog": "./bin/myblog"
+  },
   "dependencies": {
-    "commander": "^2.15.1"
+    "commander": "^2.15.1",
+    "express": "^4.16.3",
+    "markdown-it": "^8.4.1",
+    "serve-static": "^1.13.2"
   }
 }
