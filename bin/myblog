@@ -3,7 +3,7 @@
 const program = require('commander');
 
 //命令版本号
-program.version('0.0.1');
+program.version('1.0.0');
 
 //help命令
 program
@@ -17,9 +17,7 @@ program
 program
   .command('create [dir]')
   .description('创建一个空的博客')
-  .action(dir => {
-    console.log('create %s', dir);
-  });
+  .action(require('../lib/cmd_create'));
 
 //preview命令
 program
@@ -31,9 +29,8 @@ program
 program
   .command('build [dir]')
   .description('生成整站静态HTML')
-  .option('-o,--output <dir>', '生成静态HTML存放目录').action((dir, options) => {
-    console.log('create %s, output %s', dir, options.output);
-  });
+  .option('-o, --output <dir>', '生成静态HTML存放目录')
+  .action(require('../lib/cmd_build'));
 
 //开始解析命令
 program.parse(process.argv);
